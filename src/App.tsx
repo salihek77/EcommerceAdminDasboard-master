@@ -23,9 +23,12 @@ import ListViewCategory from './pages/Category/ListViewCategory';
 import EditCategory from './pages/Category/EditCategory';
 import { useAuthStore } from "./store/authStore";
 import Profile from './pages/Profile';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 
 function App() {
+
+  
 
   const user = useAuthStore((state) => state.user);
   
